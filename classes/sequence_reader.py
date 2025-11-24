@@ -1,4 +1,4 @@
-from classes.abstract_reader import Reader
+from abstract_reader import Reader
 from abc import abstractmethod
 
 
