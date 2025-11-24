@@ -62,18 +62,17 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
 # Установка в режиме разработки
-pip install -e
-```.
+pip install -e.
+```
 
 Prerequisites
 
     Python 3.7+
 
-    Required packages:
+Required packages:
 
 ```bash
-
-pip install pandas seaborn matplotlib numpy customtkinter
+pip install -r requirements.txt
 ```
 
 Usage
